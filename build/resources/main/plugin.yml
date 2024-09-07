@@ -1,0 +1,30 @@
+name: RushFFA
+version: '0.1'
+main: fr.thomasprovost.rushFFA.RushFFA
+author: thomas-provost
+description: RushFFA is a Minecraft minigame plugin where players fight each other in a free-for-all arena.
+website: https//github.com/thomas-provost/RushFFA
+
+commands:
+    rushffa:
+        description: Main command for RushFFA
+        usage: /rushffa <subcommand>
+        aliases: [rffa]
+    arena:
+        description: Arena management command
+        usage: /arena <subcommand>
+    kit:
+        description: Kit management command
+        usage: /kit <subcommand>
+    bypass:
+        description: Bypass protection command
+        usage: /bypass <subcommand>
+    join:
+        description: Join the RushFFA game
+        usage: /join
+    quit:
+        description: Quit the RushFFA game
+        usage: /quit
+    stats:
+        description: Display player stats
+        usage: /stats
