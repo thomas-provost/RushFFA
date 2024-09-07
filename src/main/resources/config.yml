@@ -1,0 +1,73 @@
+##################################################
+# Configuration file for RushFFA plugin
+#
+# Version: 0.1
+# Author: thomas-provost
+# Website: https//github.com/thomas-provost/RushFFA
+##################################################
+
+spawn:
+build-limit: 16
+spawn-teleport: 5
+
+arenas:
+  default:
+    center:
+    corner1:
+    corner2:
+    spawns: []
+
+messages:
+  french:
+    prefix: "&e&lRUSHFFA &7» &f"
+    no-permission: "&7[&c⚠&7] &fVous &cn'avez&f pas la permission d'effectuer cette &ecommande."
+    inventory-edit:
+      - "&7[&a!&7] &fBienvenu(e) dans l'édition d'&binventaire."
+      - "&fRéagençez votre inventaire comme vous le souhaitez."
+      - "&r"
+      - "&fUne fois terminé, utilisez la commande &b/&esaveinv&f."
+    inventory-saved: "&7[&a!&7] &fVotre inventaire a été &bsauvegardé&f avec &asuccès&f."
+    error: "&7[&c⚠&7] &fUne erreur est survenue, merci de réessayer plus tard."
+    reload-message: "&7[&a!&7] &fLe plugin a été &brechargé&f avec &asuccès&f."
+    no-arena: "&7[&c⚠&7] &cAucune arène &fn'a été trouvée."
+    set-lobby: "&7[&a!&7] &fLe &bpoint d'apparition&f a été défini avec &asuccès&f."
+    add-spawn: "&7[&a!&7] &fCe point d'appartition à été ajouté à l'arène %arena%. &7&o(Id: %id%)"
+    remove-spawn: "&7[&a!&7] &fCe point d'appartition à été retiré de l'arène %arena%. &7&o(Id: %id%)"
+    set-center: "&7[&a!&7] &fLe &bcentre de l'arène&f a été défini avec &asuccès&f."
+    set-corner1: "&7[&a!&7] &fLe &bpremier coin de l'arène&f a été défini avec &asuccès&f."
+    set-corner2: "&7[&a!&7] &fLe &bsecond coin de l'arène&f a été défini avec &asuccès&f."
+    arena-created: "&7[&a!&7] &fL'arène %map% a été &bcréée&f avec &asuccès&f."
+    arena-deleted: "&7[&a!&7] &fL'arène %map% a été &bsupprimée&f avec &asuccès&f."
+    arena-list: "&7[&a!&7] &fListe des arènes:"
+    join-message:
+      - "Bienvenue en &eRUSHFFA&f, %player_name%!"
+      - "&r"
+      - "&9- &fCarte actuelle: &b%rushffa_currentmap%"
+      - "&9- &fJoueurs en jeu: &b%rushffa_ingame%"
+      - "&r"
+    scoreboard:
+      title: "&e&lRUSHFFA"
+      playing:
+        - ""
+        - "&e&lINFO:"
+        - "&8- &fKills: &b%rushffa_kills%"
+        - "&8- &fMorts: &c%rushffa_deaths%"
+        - "&8- &fK/D: &b%rushffa_kd%"
+        - ""
+        - "&e&lSERVEUR:"
+        - "&8- &fEn jeu: &b%rushffa_ingame%"
+        - "&8- &fMap: &b%rushffa_currentmap%"
+        - ""
+        - "&eplay.rushffa.fr"
+    tablist:
+      header:
+        - "§f§l» &e&lRUSHFFA §f§l«"
+        - "&r"
+        - "&7Connecté(s) : &e%players% &8| &7Ping : &e%ping% &8| &7TPS : &e%tps%"
+        - "&r"
+      footer:
+        - "&r"
+        - "&eSite: &7github.com/thomas-provost/RushFFA"
+        - "&eDiscord: &7discord.gg/rushffa"
+        - "&eAdresse: &7play.rushffa.fr"
+        - "&r"

@@ -28,3 +28,5 @@ commands:
     stats:
         description: Display player stats
         usage: /stats
+
+player-datas:
